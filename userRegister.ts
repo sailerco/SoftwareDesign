@@ -12,8 +12,8 @@ namespace QuizApp{
            this.quiz = _quiz;
         }
     
-        public createQuiz(): Quiz[] {
-            return Quiz;
+        public createQuiz(): Quiz[] | null  {
+            return null;
         }
     
         public playQuiz(): void {
@@ -32,8 +32,8 @@ namespace QuizApp{
             return false;
         }
     
-        public showStats(_userId: number): Stats {
-            return Stats;
+        public showStats(_userId: number): Stats | null{
+            return null;
         }
     }
 }
