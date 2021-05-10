@@ -1,5 +1,5 @@
 Klammern/Einrückung
-- Klammern in selber Zeile beim öffnen, eigene Zeile beim schließen
+- Klammern in selber Zeile beim Öffnen, eigene Zeile beim Schließen
 - 4 Leerzeichen
 Identifizierer
 - Bei mehreren Worten camelCase bzw. PascalCase
