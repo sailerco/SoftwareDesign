@@ -1,3 +1,5 @@
+import { isCallSignatureDeclaration } from "typescript";
+
 namespace QuizApp{
     export class User {
         private userId: number;
@@ -23,7 +25,10 @@ namespace QuizApp{
         public isNull(): boolean {
             return true;    //Platzhalter
         }
-        public logIn(): boolean {
+        public logIn(): boolean {       //probably alles unnötig
+            //Abfrage Username + Password -> if false: try again
+            console.log
+            this.signUp();  //unregistered User can only sign up
             return true;    //Platzhalter
         }
     }
