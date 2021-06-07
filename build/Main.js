@@ -36,46 +36,61 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var prompts = require('prompts');
-/* (async () => {
-  const response = await prompts({
-    type: 'number',
-    style: 'emoji',
-    name: 'value',
-    message: 'How old are you?',
-    validate: (value: number) => value < 18 ? `Nightclub is 18+ only` : true
-  });
-
-  console.log(response); // => { value: 24 }
-  if(response.value == 22){
-    console.log("Looking quite young for your age!");
-  }
-})
-(); */
-(function () { return __awaiter(void 0, void 0, void 0, function () {
-    var startScreen;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0: return [4 /*yield*/, prompts([
-                    {
-                        type: 'select',
-                        name: 'value',
-                        message: 'Do you want to log in or sign up?',
-                        choices: [
-                            { title: 'Log In', value: '0' },
-                            { title: 'Sign Up', value: '1' },
-                            { title: 'Continue without account', value: '2' }
-                        ],
-                        initial: 0
-                    }
-                ])];
-            case 1:
-                startScreen = _a.sent();
-                if (startScreen.value == 0) {
+var QuizApp;
+(function (QuizApp) {
+    var _this = this;
+    var prompts = require('prompts');
+    (function () { return __awaiter(_this, void 0, void 0, function () {
+        var startScreen, userSignUpPrompt, _a, userName, password;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
+                case 0: return [4 /*yield*/, prompts([
+                        {
+                            type: 'select',
+                            name: 'value',
+                            message: 'Do you want to log in or sign up?',
+                            choices: [
+                                { title: 'Log In', value: '0' },
+                                { title: 'Sign Up', value: '1' },
+                                { title: 'Continue without account', value: '2' }
+                            ],
+                            initial: 0
+                        }
+                    ])];
+                case 1:
+                    startScreen = _b.sent();
+                    console.log(startScreen);
+                    userSignUpPrompt = function (signUp) { return [
+                        {
+                            type: 'text',
+                            name: 'username',
+                            message: signUp
+                                ? 'Type your username'
+                                : 'Select new Username. Min. lewngth is 4'
+                        },
+                        {
+                            type: 'password',
+                            name: 'password',
+                            message: signUp
+                                ? 'Enter Password'
+                                : 'Select new Password.'
+                        }
+                    ]; };
+                    if (!(startScreen.value == 0)) return [3 /*break*/, 2];
                     console.log("LogIn succeeded");
-                }
-                console.log(startScreen);
-                return [2 /*return*/];
-        }
-    });
-}); })();
+                    return [3 /*break*/, 5];
+                case 2:
+                    if (!(startScreen.value == 1)) return [3 /*break*/, 4];
+                    return [4 /*yield*/, prompts(userSignUpPrompt(true))];
+                case 3:
+                    _a = _b.sent(), userName = _a.userName, password = _a.password;
+                    return [3 /*break*/, 5];
+                case 4:
+                    if (startScreen.value == 2) {
+                    }
+                    _b.label = 5;
+                case 5: return [2 /*return*/];
+            }
+        });
+    }); })();
+})(QuizApp || (QuizApp = {}));

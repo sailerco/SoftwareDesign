@@ -1,30 +1,9 @@
-import { Console } from "console";
-import { userInfo } from "os";
-
+import { createLogicalNot } from "typescript";
 
 namespace QuizApp{
 
   const prompts = require('prompts');
-
-
-
-  /* (async () => {
-    const response = await prompts({
-      type: 'number',
-      style: 'emoji',
-      name: 'value',
-      message: 'How old are you?',
-      validate: (value: number) => value < 18 ? `Nightclub is 18+ only` : true
-    });
   
-    console.log(response); // => { value: 24 }
-    if(response.value == 22){
-      console.log("Looking quite young for your age!");
-    } 
-  })
-  (); */
-
-
 
   (async () => {
     const startScreen = await prompts([
@@ -43,8 +22,32 @@ namespace QuizApp{
     console.log(startScreen);
     //if()/switchcase  //Abfrage, was ausgewählt wurde
 
+    const userSignUpPrompt = (signUp: Boolean) => [
+      {
+        type: 'text',
+        name: 'username',
+        message: signUp
+        ?'Type your username'
+        :'Select new Username. Min. lewngth is 4'
+      },
+      {
+        type: 'password',
+        name: 'password', 
+        message: signUp
+        ?'Enter Password'
+        :'Select new Password.'
+      }
+    ]
+    
     if (startScreen.value == 0) {
       console.log("LogIn succeeded");
+    }
+    else if(startScreen.value == 1) {   //Sign Up
+
+      const { userName, password } = await prompts(userSignUpPrompt(true));
+    }
+    else if(startScreen.value == 2) { 
+
     }
   })();
 }
