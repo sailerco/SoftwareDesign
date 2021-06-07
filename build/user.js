@@ -17,6 +17,9 @@ var QuizApp;
             return true; //Platzhalter
         };
         User.prototype.logIn = function () {
+            //Abfrage Username + Password -> if false: try again
+            console.log;
+            this.signUp(); //unregistered User can only sign up
             return true; //Platzhalter
         };
         return User;

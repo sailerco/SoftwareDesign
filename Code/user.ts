@@ -1,5 +1,3 @@
-import { isCallSignatureDeclaration } from "typescript";
-
 namespace QuizApp{
     export class User {
         private userId: number;

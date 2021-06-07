@@ -35,6 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var prompts = require('prompts');
 /* (async () => {
   const response = await prompts({
@@ -51,51 +52,29 @@ var prompts = require('prompts');
   }
 })
 (); */
-/* (async () => {
-  const response = await prompts([
-    {
-      type: 'text',
-      name: 'twitter',
-      message: "What's your twitter handle?"
-    },
-    {
-      type: 'multiselect',
-      name: 'color',
-      message: 'Pick colors',
-      choices: [
-        { title: 'Red', value: '#ff0000' },
-        { title: 'Green', value: '#00ff00' },
-        { title: 'Blue', value: '#0000ff' }
-      ],
-    }
-  ]);
-
-  console.log(response);
-})(); */
-prompts.inject(['@terkelg', ['#ff0000', '#0000ff']]);
 (function () { return __awaiter(void 0, void 0, void 0, function () {
-    var response;
+    var startScreen;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, prompts([
                     {
-                        type: 'text',
-                        name: 'twitter',
-                        message: "What's your twitter handle?"
-                    },
-                    {
-                        type: 'multiselect',
-                        name: 'color',
-                        message: 'Pick colors',
+                        type: 'select',
+                        name: 'value',
+                        message: 'Do you want to log in or sign up?',
                         choices: [
-                            { title: 'Red', value: '#ff0000' },
-                            { title: 'Green', value: '#00ff00' },
-                            { title: 'Blue', value: '#0000ff' }
+                            { title: 'Log In', value: '0' },
+                            { title: 'Sign Up', value: '1' },
+                            { title: 'Continue without account', value: '2' }
                         ],
+                        initial: 0
                     }
                 ])];
             case 1:
-                response = _a.sent();
+                startScreen = _a.sent();
+                if (startScreen.value == 0) {
+                    console.log("LogIn succeeded");
+                }
+                console.log(startScreen);
                 return [2 /*return*/];
         }
     });
