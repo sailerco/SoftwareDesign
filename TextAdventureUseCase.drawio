@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T16:00:48.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="jflhfnokcTXF7QatnU7F" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T16:03:46.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="xyf5WjZFhjRR3Txv0sOt" version="14.7.7" type="github">
   <diagram id="2k4qvEb0eAt47WyBkYto" name="Page-1">
     <mxGraphModel dx="976" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,29 +60,21 @@
         <mxCell id="Zf223wvTRj6IdAtIRfd2-9" value="registered User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="100" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-13" target="Zf223wvTRj6IdAtIRfd2-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-50" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zf223wvTRj6IdAtIRfd2-49">
-          <mxGeometry x="-0.395" y="-1" relative="1" as="geometry">
-            <mxPoint x="7" y="29" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-13" target="Zf223wvTRj6IdAtIRfd2-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-52" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zf223wvTRj6IdAtIRfd2-51">
-          <mxGeometry x="0.3687" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-13" value="Login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="294" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-14" value="Play Game" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="294" y="530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-16" value="Show stats" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-16" target="Zf223wvTRj6IdAtIRfd2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-59" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zf223wvTRj6IdAtIRfd2-57">
+          <mxGeometry x="-0.4901" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-16" value="Show stats for games" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="525" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-17" value="Sign up" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -125,6 +117,14 @@
         <mxCell id="Zf223wvTRj6IdAtIRfd2-36" value="End Game (back to user)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="294" y="610" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-37" target="Zf223wvTRj6IdAtIRfd2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-60" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zf223wvTRj6IdAtIRfd2-58">
+          <mxGeometry x="-0.4612" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-37" value="Create Game" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="180" width="120" height="40" as="geometry" />
         </mxCell>
@@ -160,6 +160,17 @@
         </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-46" value="Define map size" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="770" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-53" target="Zf223wvTRj6IdAtIRfd2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-56" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zf223wvTRj6IdAtIRfd2-55">
+          <mxGeometry x="-0.3739" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-53" value="avagere amounts of turns on map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="60" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
