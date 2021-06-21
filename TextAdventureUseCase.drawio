@@ -1,17 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T06:57:26.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="JjyDTDiTcmXOXvf-DRdb" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T15:28:46.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="NAKf8Zbwbyw37GYV3rXz" version="14.7.7" type="github">
   <diagram id="2k4qvEb0eAt47WyBkYto" name="Page-1">
-    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qG030Nj6i0k_ADabBcjQ-6" value="&lt;p&gt;registered User&lt;/p&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="110" width="30" height="60" as="geometry" />
+        <mxCell id="qG030Nj6i0k_ADabBcjQ-6" value="&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zf223wvTRj6IdAtIRfd2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="70" width="560" height="470" as="geometry" />
+          <mxGeometry x="130" y="70" width="680" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="Zf223wvTRj6IdAtIRfd2-2" value="Text Adventure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="405" y="30" width="90" height="20" as="geometry" />
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-2" value="Adventuria - Text Adventure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-4" target="qG030Nj6i0k_ADabBcjQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-4" target="Zf223wvTRj6IdAtIRfd2-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="310" />
+              <mxPoint x="20" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-4" target="Zf223wvTRj6IdAtIRfd2-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="310" />
+              <mxPoint x="190" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" target="Zf223wvTRj6IdAtIRfd2-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Zf223wvTRj6IdAtIRfd2-4" target="Zf223wvTRj6IdAtIRfd2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-4" value="&lt;p&gt;User&lt;/p&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-5" value="&lt;p&gt;Player&lt;/p&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-9" value="registered User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="100" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-13" value="Login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-14" value="Play Game" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-16" value="Show stats" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-17" value="Sign up" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-19" value="Search Adventure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zf223wvTRj6IdAtIRfd2-20" value="Show Overview Adventure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
